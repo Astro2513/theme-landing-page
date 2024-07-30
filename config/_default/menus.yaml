@@ -3,7 +3,7 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 首页
     url: /#top
     weight: 10
   - name: Features
@@ -12,9 +12,7 @@ main:
   - name: Solutions
     url: /#solutions
     weight: 30
-  - name: Resources
-    weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
+  - name: Blog
     url: blog/
+    weight: 40
+
