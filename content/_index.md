@@ -3,9 +3,9 @@ title: 'Home'
 date: 2023-10-24
 type: landing
 
-design:
+# design:
   # Default section spacing
-  spacing: "6rem"
+  # spacing: "6rem"
 
 sections:
   - block: cta-card
